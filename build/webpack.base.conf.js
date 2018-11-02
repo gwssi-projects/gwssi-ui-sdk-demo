@@ -111,7 +111,7 @@ module.exports = {
     }),
 
     new HtmlWebpackPlugin({
-      title: '长城软件基础UI组件及应用项目',
+      title: 'SDK DEMO样例',
       filename: resolve(__dirname, '../dist/index.html'),
       template: resolve(__dirname, '../src/index.html'),
       //设置引入的JS，如果不设置默认会加载全部的JS
